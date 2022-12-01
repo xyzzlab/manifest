@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="xyz"
+                fetch="https://github.com/xyzzlab" />
+
+	<remote name="giovanni-gitlab"
+		fetch="https://gitlab.com/ItsVixano-dev" />
+
+	<remote name="giovanni"
+		fetch="https://github.com/ItsVixano" />
+
+        <project path="device/xiaomi/ysl" name="device_xiaomi_ysl" remote="xyz" revision="13" clone-depth="1" />
+	<project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="xyz" revision="13" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="giovanni" revision="lineage-20" clone-depth="1" />
+        <project path="vendor/xiaomi/" name="android_vendor_xiaomi" remote="giovanni-gitlab" revision="lineage-20" clone-depth="1" />
+
+</manifest>
