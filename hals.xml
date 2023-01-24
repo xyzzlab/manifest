@@ -9,21 +9,13 @@
 	<remote name="lineage"
                 fetch="https://github.com/LineageOS" />
 
-	<remote name="xyzz"
-                fetch="https://github.com/xyzzlab" />
-
     <remove-project name="hardware_qcom-caf_msm8996_display" />
     <remove-project name="hardware_qcom-caf_msm8996_media" />
     <remove-project name="hardware_qcom-caf_msm8996_audio" />
     <remove-project name="hardware_qcom-caf_wlan" />
-    <remove-project name="frameworks_base" />
-    <remove-project name="external_boringssl" />
     <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="dhruvscape" revision="12" clone-depth="1" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="dhruvscape" revision="twelve-L" clone-depth="1" />
-    <project path="frameworks/base" name="frameworks_base" remote="xyzz" revision="thirteen" clone-depth="1" />
-    <project path="external/boringssl" name="external_boringssl" remote="xyzz" revision="thirteen" clone-depth="1" />
 </manifest>
-
